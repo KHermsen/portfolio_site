@@ -1,5 +1,9 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
+    font-family: 'Lora', serif;
+    color: rgb(51, 51, 51);
 }
 
+header {
+    font-family: 'Montserrat', sans-serif;  
+    color: rgb(51, 51, 51);
+}
