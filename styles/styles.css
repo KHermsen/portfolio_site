@@ -8,3 +8,30 @@ h1 {
     color: rgb(51, 51, 51);
 
 }
+
+.main {
+    /*height: 90vh;*/
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 80px 80vh;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+nav.menu ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav.menu ul li {
+    display: inline-block;
+}
+
+div.home_body img {
+    max-width: 100%;
+    max-height: 100%;
+    /*object-fit: cover;*/
+}
