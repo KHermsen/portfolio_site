@@ -10,12 +10,18 @@ h1 {
 
 }
 
-.main {
+.home.main {
     /*height: 90vh;*/
     width: 100vw;
     display: grid;
     grid-template-rows: 80px 80vh;
     grid-gap: 2em;
+}
+
+div.main {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
@@ -37,6 +43,8 @@ div.menu {
     margin: 1rem;
     font-size: 1em;
 }
+
+div.topic_page div.menu { grid-template-columns: 1fr 1fr 1fr 1fr;}
 
 div.menu_item {
     text-align: center;
@@ -68,13 +76,26 @@ div.home_body img {
 .portfolio_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5em;
 }
 
 .portfolio_card {
-    padding: 1em;
+    /* padding: 1em; */
     text-align: center;
+    color: rgb(51, 51, 51);
 }
 
-.card_caption {
+.portfolio_card a, .portfolio_card .card_caption {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
 
+.portfolio_card a:hover {
+    text-decoration: underline;
+}
+
+img.card_image {
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
 }
